@@ -249,6 +249,13 @@ input::-webkit-outer-spin-button,
 	color: #fff;
 	font-size: 17px;
 }
+.btn-order:hover{
+	background: #ffc657;
+	width: 220px;
+	padding:20px 25px;
+	border-radius: 5px;
+	transition: .5s ease-in-out;
+}
 
 /*event section css start here*/
 .event-section{
@@ -350,47 +357,52 @@ input::-webkit-outer-spin-button,
 	border-radius: 3px;
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 21px;
+	cursor: pointer;
 
 }
 /*footer section css start here*/
 .footer-section{
+	width: 100%;
+	padding: 60px 0;
+	}
+.footer{
 	background-image: url(../img/footer-bg.png) ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height:80vh;
-}
-.footer{
-	padding: 80px 0;
-	color: #fff;
-
-}
-.footer-top{
 	display: flex;
+	padding: 50px 30px;
 }
 .footer-left{
-	width: 60%;
-	padding: 30px;
+	width: 50%;
 }
 .footer-left img{
-	margin-bottom: 60px;
+	margin-bottom: 120px;
 }
-.footer-left p{
+.paragraph{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
+	color: #cbc6c2;
+	margin-bottom: 180px;
+}
+.copyright p{
+	color: #c7c5c1;	
 }
 .footer-right {
-	width: 40%;
-	margin: auto;
+	width: 50%;
 	text-align: center;
+	margin-top: 220px;
 }
-.address{
-	margin-top: 40px;
+.address, .mail{
+	margin-left: 120px;
 }
 .address i, .mail i{
 	margin-right: 15px;
 	margin-bottom: 15px;
 	font-size: 16px;
+	color: #ffffff;
+	width: 30px;
 }
 .address span, .mail span{
 	font-family: 'Bebas Neue', cursive;
@@ -398,19 +410,13 @@ input::-webkit-outer-spin-button,
 	color: #fff;
 	margin-bottom: 20px;
 }
-.footer-bottom{ 
-	position: relative;
- }
-.copyright{
-	
-	position: absolute;
-	top: 150px;
-	
-}
 .social-icon{
-	position: absolute;
-	top: 150px;
-	right: 40px;
+	text-align: right;
+	margin-top: 170px;
+}
+.social-icon ul li{
+	display: inline-block;
+	width: 40px;
 }
 .social-icon a i{
 	color:#000;
