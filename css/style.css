@@ -40,12 +40,11 @@ input::-webkit-outer-spin-button,
 	background-position: center;
 	background-size: cover;
 	height:100vh;
-	padding: 30px 0;
+	padding: 40px 0;
 }
 .header{
 	display: flex;
-	justify-content: space-between;
-	
+	justify-content: space-between;	
 }
 .menu{
 	text-align: right;
@@ -82,13 +81,24 @@ input::-webkit-outer-spin-button,
 	font-weight: bold;
 	font-size: 20px
 }
+.menu-list ul li:hover{
+	border-bottom: 2px solid #3d2514;
+	transition: .5s ease-in-out;
+}
+.menu-list ul li a:hover{
+	font-size: 26px;
+	transition: .5s ease-in-out;
+
+}
 /*banner content css start here*/
 .banner{
-	height: 60vh;
-	display: table-cell;
-	vertical-align: middle;
+	display: flex;
+	justify-content: space-between;
 }
-.banner p{
+.banner-left{
+	margin-top:120px;
+}
+.banner-left p{
 	font-family: 'Bebas Neue', cursive;
 	font-weight: 400;
 	font-size: 24px;
@@ -98,7 +108,7 @@ input::-webkit-outer-spin-button,
 	display: inline;
 	text-transform: uppercase;
 }
-.banner h1{
+.banner-left h1{
 	color: #3d2514;
 	font-family: 'Alfa Slab One', cursive;
 	font-weight: 400;
@@ -107,7 +117,7 @@ input::-webkit-outer-spin-button,
 	text-transform: uppercase;
 
 }
-.banner h2{
+.banner-left h2{
 	color: #3d2514;
 	letter-spacing: 2px;
 	font-family: 'Alfa Slab One', cursive;
